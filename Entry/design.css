@@ -29,7 +29,6 @@ a{
     margin-top: 3.5rem;
     margin-left: 14rem; margin-right: 14rem;
     border-radius: 10px;
-    position: sticky;
     top: 0; left: 0; right: 0;
     z-index: auto;
     display: flex;
@@ -124,12 +123,12 @@ a{
     color: rgb(64, 110, 237);
 }
 
-.hoho .bodi .bodies{
+.bodies{
     font-size: 1.2rem;
 }
 
 .hoho .paxi{
-    margin: 3rem;
+    margin-left: 3rem;
 }
 
 .hoho .paxi .search{
@@ -165,6 +164,8 @@ a{
 .paxi .txt .choose p{
     font-size: 1.3rem;
     font-weight: bolder;
+    text-decoration: underline;
+    text-underline-offset: 3px;
 }
 
 .paxi .txt .crcl{
@@ -173,4 +174,10 @@ a{
     border-radius: 1rem;
     margin-top: .3rem;
     margin-right: 1.5rem;
+}
+
+.b{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-bottom: 2rem;
 }

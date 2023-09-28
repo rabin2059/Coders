@@ -25,7 +25,7 @@ a{
 }
 
 a:hover{
-    color: aqua;
+    color: rgb(84, 78, 246);
 }
 
 .header{
@@ -47,9 +47,20 @@ a:hover{
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder
 }
+
+.header .Navigation{
+    margin-right: -8rem;
+}
+
 .header .Navigation a{
     font-size: 1.7rem;
-    margin: 0 1rem;
+    margin-left: 8rem;
+    padding-top: 2.6rem;
+}
+
+.header .Navigation a:hover{
+    border-top: 2px #3f76d4 solid;
+    
 }
 
 .start{
@@ -127,7 +138,8 @@ a:hover{
 }
 
 .bodies{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
 }
 
 .hoho .paxi{
@@ -183,4 +195,20 @@ a:hover{
     font-size: 1.5rem;
     font-weight: bolder;
     margin-bottom: 2rem;
+}
+
+.pics{
+    margin-top: 4rem;
+}
+
+.pics .grid-container img{
+    height: 6rem;
+    border-radius: 1rem;
+    padding: .8rem;
+    background-color: #fff;
+    margin: .8rem;
+}
+
+.fa-tag{
+    font-size: 2rem;
 }

@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     outline: none;
-    border: none;
     text-decoration: none;
     transition: all .2s linear;
 }
@@ -23,6 +22,10 @@ body{
 
 a{
     text-decoration: none;
+}
+
+a:hover{
+    color: aqua;
 }
 
 .header{
@@ -128,16 +131,16 @@ a{
 }
 
 .hoho .paxi{
-    margin-left: 3rem;
+    margin-left: 4rem;
 }
 
-.hoho .paxi .search{
+.search{
     width: 27rem; height: 4rem;
     background-color: #fff;
     border-radius: 6px;
 }
 
-.hoho .paxi .search .fa-search{
+.search .fa-search{
     font-size: 2rem;
     color: #fff;
     float: right;
